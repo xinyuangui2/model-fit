@@ -24,3 +24,15 @@ covered by textures.
 ## [A Framework for Automatic Modeling from Point Cloud Data](papers/POULLIS_TPAMI2013.pdf)
 
 * [Code](https://github.com/charalambos/StructurePointcloud)
+
+## [Manhattan-world Urban Reconstruction from Point Clouds](papers/manhattan_eccv2016.pdf)
+
+* [code](https://github.com/LiangliangNan/ManhattanModeler)
+* Represent the geometry of the buildings in the scene using a set of well-aligned boxes. First extract plane hypothesis from the points followed by an iterative refinement step. \
+Then, candidate boxes are obtained by partitioning the space of the point
+cloud into a non-uniform grid. After that, we choose an optimal subset of
+the candidate boxes to approximate the geometry of the buildings. The
+contribution of our work is that we transform scene reconstruction into a
+labeling problem that is solved based on a novel Markov Random Field
+formulation. 
+* Idea: We can use point cloud classification firstly to extract seperate house point clouds. Then we use this algorithms for all buildings.
